@@ -1,0 +1,4 @@
+label{float:left;width:60px;font-weight:bold;}
+#invia{border:2px solid #090;background:#fff;}
+#map{width:580px;height:350px;margin-top:10px;padding:2px;border:1px solid #ccc;font:12px "Courier New",Verdana,Arial;font-weight:bold;}
+#message{margin:15px 0 20px;padding:8px;border-top:2px solid #090;border-bottom:2px solid #090;color:#999;font:14px "Courier New",Courier,Verdana,Arial;font-weight:bold;}
