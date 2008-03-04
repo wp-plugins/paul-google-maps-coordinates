@@ -111,7 +111,7 @@ function paul_google_maps_coordinates()
   {
     var map = new GMap2(document.getElementById("map")); //creo la mappa
     map.addControl(new GLargeMapControl()); //aggiungo il controllo dello zoom
-    map.addControl(new GMapTypeControl()); //aggiungo il controllo del tipo di mappa
+    //map.addControl(new GMapTypeControl()); //aggiungo il controllo del tipo di mappa
     var center = new GLatLng(<?php echo $lat.",".$lon; ?>); //creo il punto centrale della mappa
     map.setCenter(center, 14); //setto il punto centrale ed il livello di zoom
     map.addControl(new google.maps.LocalSearch(), new GControlPosition(G_ANCHOR_BOTTOM_RIGHT, new GSize(5,20))); //aggiungo e posiziono il campo di ricerca
